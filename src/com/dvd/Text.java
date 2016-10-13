@@ -35,7 +35,7 @@ public class Text {
 				}
 				else{
 					System.out.println("添加DVD失败！");
-		e		}
+				}
 				break;
 			case 3:
 				System.out.println("您选择了删除DVD资料......");
@@ -43,10 +43,10 @@ public class Text {
 				System.out.println("请输入你要删除的DVD编号：");
 				id3 = in.next();
 				if(dm.deleteDVD(id3)){
-					System.out.println("删除成功！");
+					System.out.println("删除成功");
 				}
 				else{
-					System.out.println("删除失败！");
+					System.out.println("删除失败!");
 				}
 				break;
 			case 4:
