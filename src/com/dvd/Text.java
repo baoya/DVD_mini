@@ -35,7 +35,7 @@ public class Text {
 				}
 				else{
 					System.out.println("添加DVD失败！");
-				}
+		e		}
 				break;
 			case 3:
 				System.out.println("您选择了删除DVD资料......");
